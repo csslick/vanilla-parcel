@@ -1,10 +1,9 @@
-import Visual from './Visual'
+import Visual from './visual.html'
 
 const Content = function() {
   
-  const visual_html = Visual();
   const template = `
-    ${visual_html}
+    ${Visual}
     <h2>content here</h2>
   `
 
